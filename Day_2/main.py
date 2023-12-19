@@ -1,5 +1,3 @@
-from typing import Union
-
 with open("./input.txt", "r") as input_text:
     data = input_text.read().split("\n")
 
