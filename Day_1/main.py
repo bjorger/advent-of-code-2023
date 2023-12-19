@@ -70,18 +70,4 @@ def extract_number(current_line: str) -> int:
     return value
 
 
-test_data = [
-    "two1nine",
-    "eightwothree",
-    "abcone2threexyz",
-    "xtwone3four",
-    "4nineeightseven2",
-    "zoneight234",
-    "7pqrstsixteen"
-]
-
-# print(extract_number("nlnineeightmndkqz8nineonenrqm"))
-
-# print(sum([extract_number(line) for line in test_data]))
-
 print(sum([extract_number(line) for line in data]))
